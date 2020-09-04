@@ -1,3 +1,4 @@
+//Class used to find total cost
 import java.util.*;
 
 public class RoomCarpet
