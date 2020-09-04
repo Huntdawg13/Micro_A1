@@ -5,6 +5,7 @@ public class RoomCarpet
 {
    private RoomDimension dimension;
    private double price;
+   private double totalCost;
    
    
    public RoomCarpet(RoomDimension dim, double cost)
@@ -15,6 +16,13 @@ public class RoomCarpet
    
    public double getTotalCost()
    {
-      return price*dimension.getArea();
+      totalCost = price*dimension.getArea();
+      
+      return totalCost;
+   }
+   
+   public String toString2()
+   {
+      return "The total cost to carpet your floor will be: $" + getTotalCost();
    }
 }
