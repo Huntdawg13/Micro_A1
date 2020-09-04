@@ -23,7 +23,7 @@ public class RoomDimension
    
    public String toString()
    {
-      return "Length: " + RoomLength + "\n" + "Width: " + RoomWidth +
-               "\n" + "Area: " + getArea();
+      return "Length: " + RoomLength + " feet \n" + "Width: " + RoomWidth +
+               " feet \n" + "Area: " + getArea() + " square feet";
    }
 }

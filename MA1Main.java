@@ -28,12 +28,13 @@ public class MA1Main
       GetMeasurements(dimension);
            
       RoomCarpet carpet = new RoomCarpet(dimension, price);
-      
-            
+      System.out.println(carpet.toString2());
+              
    }
    
    public static void GetMeasurements(RoomDimension dimension)
    {
       System.out.println(dimension.toString());
    }
+   
 }
