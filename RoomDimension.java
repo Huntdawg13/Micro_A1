@@ -1,3 +1,4 @@
+//Class used to find total area of floor
 import java.util.*;
 
 public class RoomDimension
