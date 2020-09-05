@@ -7,13 +7,14 @@ public class RoomDimension
    private double RoomWidth;
    private double RoomArea;
    
-   
+   //Constructor that stores the dimensions of the floor
    public RoomDimension(double Length, double Width)
    {
       RoomLength = Length;
       RoomWidth = Width;
    }
    
+   //Gets the area of the floor
    public double getArea()
    {
       RoomArea = RoomLength*RoomWidth;

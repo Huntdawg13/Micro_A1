@@ -7,13 +7,14 @@ public class RoomCarpet
    private double price;
    private double totalCost;
    
-   
+   //Constructor that stores room demensions and cost per square inch
    public RoomCarpet(RoomDimension dim, double cost)
    {
       this.dimension = dim;
       price = cost;
    }
    
+   //Gets the total cost to carpet the floor
    public double getTotalCost()
    {
       totalCost = price*dimension.getArea();

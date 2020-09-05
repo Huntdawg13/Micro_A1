@@ -2,7 +2,7 @@
 Name: Hunter McClure
 CptS 233: MicroAssignment #1
 Date: 9/2/2020
-gitRepo url:
+gitRepo url: https://github.com/Huntdawg13/Micro_A1.git
 
 */
 
@@ -10,6 +10,7 @@ import java.util.*;
 
 public class MA1Main
 {
+   //Main program that asks for info and calls on the classes
    public static void main(String[] args)
    {
       Scanner console = new Scanner(System.in);
@@ -25,16 +26,9 @@ public class MA1Main
 		System.out.println();
       
       RoomDimension dimension = new RoomDimension(length, width);
-      GetMeasurements(dimension);
+      System.out.println(dimension.toString());
            
       RoomCarpet carpet = new RoomCarpet(dimension, price);
-      System.out.println(carpet.toString2());
-              
+      System.out.println(carpet.toString2());          
    }
-   
-   public static void GetMeasurements(RoomDimension dimension)
-   {
-      System.out.println(dimension.toString());
-   }
-   
 }
